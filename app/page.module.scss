@@ -1,0 +1,18 @@
+.container {
+  //width: 1120px;
+  display: flex;
+  justify-content: end;
+  border: 2px solid black;
+  margin: 25px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-right: 50px;
+}
+
+.image {
+  width: 1000px;
+}

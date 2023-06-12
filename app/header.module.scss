@@ -1,0 +1,39 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navLinks a {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.productPreview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.productPreview img {
+  width: 100%;
+  height: auto;
+}
